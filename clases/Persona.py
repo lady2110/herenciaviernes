@@ -52,8 +52,8 @@ class Persona:
 	def correo(self,correo):
 		self.__correo =correo
 	
-	def clasificar(self,nombre):
-		print(f"Hola mi nombre es {nombre}")
+	def saludar(self):
+		print(f"Hola mi nombre es {self.nombre}")
 
 		
 	 
